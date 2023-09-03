@@ -66,7 +66,7 @@ const colors = {
   blue: rosepine.foam,
   magenta: rosepine.iris,
   cyan: rosepine.rose,
-  white: rosepine.text,
+  white: rosepine.hl_high,
   lightBlack: rosepine.muted,
   lightRed: rosepine_moon.love,
   lightGreen: rosepine_moon.pine,
@@ -74,11 +74,11 @@ const colors = {
   lightBlue: rosepine_moon.foam,
   lightMagenta: rosepine_moon.iris,
   lightCyan: rosepine_moon.rose,
-  lightWhite: rosepine_moon.text,
+  lightWhite: rosepine_moon.hl_high,
 
   backgroundColor: rosepine.base,
   foregroundColor: rosepine.text,
-  cursorColor: rosepine.hl_low,
+  cursorColor: rosepine.text,
 };
 
 t.prefs_.set("color-palette-overrides", [
