@@ -1,4 +1,11 @@
 @font-face {
-    font-family: "HackGen 35 Console NF";
-    src: url("https://yasushisakai.github.io/blink_fonts/fonts/HackGen/HackGen35ConsoleNF-Regular.ttf") format("opentype")
+    font-family: "HackGen Console NF";
+    font-weight: 400;
+    src: url("https://yasushisakai.github.io/blink_fonts/fonts/HackGen/HackGenConsoleNF-Regular.ttf") format("opentype")
+}
+
+@font-face {    
+    font-family: "HackGen Console NF";
+    font-weight: 700;
+    src: url("https://yasushisakai.github.io/blink_fonts/fonts/HackGen/HackGenConsoleNF-Bold.ttf") format("opentype")
 }

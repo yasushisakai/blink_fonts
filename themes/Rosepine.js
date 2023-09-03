@@ -78,7 +78,7 @@ const colors = {
 
   backgroundColor: rosepine.base,
   foregroundColor: rosepine.text,
-  cursorColor: rosepine.text,
+  // cursorColor: rosepine.text,
 };
 
 t.prefs_.set("color-palette-overrides", [
@@ -100,6 +100,6 @@ t.prefs_.set("color-palette-overrides", [
   colors.lightWhite,
 ]);
 
-t.prefs_.set("cursor-color", colors.cursorColor);
+t.prefs_.set("cursor-color", "rgba(110, 106, 134, 0.5)");
 t.prefs_.set("foreground-color", colors.foregroundColor);
 t.prefs_.set("background-color", colors.backgroundColor);
